@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoProject" duration-ms="3951" started-at="2020-12-24T23:26:05Z" finished-at="2020-12-24T23:26:09Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="3951" started-at="2020-12-24T23:26:05Z" finished-at="2020-12-24T23:26:09Z">
+      <class name="com.sample.test.demo.tests.PizzaOrder">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.PizzaOrder@100fc185]" name="init" is-config="true" duration-ms="3078" started-at="2020-12-24T23:26:05Z" finished-at="2020-12-24T23:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="placePizzaOrderTest()[pri:0, instance:com.sample.test.demo.tests.PizzaOrder@100fc185]" name="placePizzaOrderTest" duration-ms="728" started-at="2020-12-24T23:26:08Z" finished-at="2020-12-24T23:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placePizzaOrderTest -->
+        <test-method status="PASS" signature="verifyEmptyPageTest()[pri:0, instance:com.sample.test.demo.tests.PizzaOrder@100fc185]" name="verifyEmptyPageTest" duration-ms="48" started-at="2020-12-24T23:26:09Z" finished-at="2020-12-24T23:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.PizzaOrder@100fc185]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-12-24T23:26:09Z" finished-at="2020-12-24T23:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.PizzaOrder -->
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@3a82f6ef]" name="init" is-config="true" duration-ms="3034" started-at="2020-12-24T23:26:05Z" finished-at="2020-12-24T23:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.sample.test.demo.tests.DemoTest@3a82f6ef]" name="demoTest" duration-ms="1" started-at="2020-12-24T23:26:08Z" finished-at="2020-12-24T23:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@3a82f6ef]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-12-24T23:26:08Z" finished-at="2020-12-24T23:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- DemoProject -->
+</testng-results>
